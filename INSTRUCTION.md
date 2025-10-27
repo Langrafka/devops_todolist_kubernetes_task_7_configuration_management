@@ -4,17 +4,17 @@
 
 1.  **Створити Secret** (todoapp-secrets):
     ```bash
-    kubectl apply -f .infrastructure/secret.yml --namespace todoapp
+    kubectl apply -f secret.yml --namespace todoapp
     ```
 
 2.  **Створити ConfigMap** (todoapp-config-map):
     ```bash
-    kubectl apply -f .infrastructure/configMap.yml --namespace todoapp
+    kubectl apply -f configMap.yml --namespace todoapp
     ```
 
 3.  **Розгорнути застосунок** (Deployment):
     ```bash
-    kubectl apply -f .infrastructure/deployment.yml --namespace todoapp
+    kubectl apply -f deployment.yml --namespace todoapp
     ```
 
 ## Етап 2: Валідація Змін
